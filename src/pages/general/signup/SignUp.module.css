@@ -1,0 +1,99 @@
+/* Estilos base de Movil */
+.Modal-SignUp {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.SignUp-Modal-Header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.SignUp-Text-Title {
+  font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+.Body-Name-Pass {
+  display: flex; /* Add flex display to make the inputs appear side by side */
+  flex-direction: row;
+}
+
+.Name-Container,
+.LastName-Container {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
+}
+
+.SignUp-Input {
+  margin-top: 1vh;
+}
+
+.SignUp-Modal-Footer {
+  flex-direction: row;
+}
+
+.Info {
+  align-self: center;
+}
+.Radio-Group {
+  align-self: center;
+  margin: 1vw;
+}
+.SignUp-Button {
+  margin: 2vw;
+  display: flex; /* Add flex display to make the inputs appear side by side */
+  flex-direction: row;
+}
+
+/* ------------------------------------------------------MD-------------------------------------------------------- */
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+}
+
+/* ------------------------------------------------------LG----------------------------------------------------- */
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .Name-Container,
+  .LastName-Container {
+    margin: 0.5vw;
+  }
+}
+
+/* -------------------------------------------------------XL---------------------------------------------------- */
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  .Name-Container,
+  .LastName-Container {
+    margin: 0.2vw;
+  }
+}
+
+/* -------------------------------------------------------XXL----------------------------------------------------- */
+/* Extra large devices (1536px and up) */
+@media only screen and (min-width: 96em) {
+}
+
+/* -------------------------------------------------------Landscape----------------------------------------------------- */
+
+/* Media query para modo horizontal (landscape) solo para dispositivos móviles */
+@media screen and (max-width: 53em) and (orientation: landscape) {
+  .Modal-SignUp {
+    width: 100%;
+  }
+
+  .SignUp-Modal-Footer {
+    flex-direction: row;
+  }
+
+  .SignUp-Button {
+    height: 3rem;
+    font-size: 1.4em;
+  }
+}

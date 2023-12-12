@@ -1,0 +1,132 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #23232300;
+}
+
+/* Ocultar la sombra de todas las tablas */
+.shadow-small {
+  --tw-shadow: none;
+  --tw-shadow-colored: none;
+  box-shadow: none;
+}
+
+/* Sideabar */
+.selected {
+  background-color: #32323234;
+  border-radius: 15px;
+}
+
+.dark-mode .selected {
+  background-color: #cdcbcb34;
+  border-radius: 15px;
+}
+
+.custom-submenu > .ps-submenu-content {
+  background-color: #f0f0f0;
+  border-radius: 5%;
+  width: auto;
+}
+
+.dark-mode .custom-submenu > .ps-submenu-content {
+  background-color: #121212;
+  border-radius: 5%;
+  width: auto;
+}
+
+.custom-submenu .ps-menuitem-root {
+  background-color: #f0f0f0;
+  border-radius: 5%;
+}
+
+.dark-mode .custom-submenu .ps-menuitem-root {
+  background-color: #121212;
+  border-radius: 5%;
+}
+.custom-submenu .ps-menuitem-root.selected {
+  background-color: #32323234;
+}
+.dark-mode .custom-submenu .ps-menuitem-root.selected {
+  background-color: #cdcbcb34;
+}
+
+.custom-submenu .ps-menuitem-root:hover,
+.custom-submenu .ps-menuitem-root:hover .ps-menu-button {
+  background-color: #727272;
+  border-radius: 16px;
+}
+
+/*Texto de Sliders*/
+
+.css-1eoe787-MuiSlider-markLabel {
+  color: rgb(0, 0, 0) !important;
+}
+
+.css-yafthl-MuiSlider-markLabel {
+  color: rgb(0, 0, 0) !important;
+}
+
+.dark-mode .css-1eoe787-MuiSlider-markLabel {
+  color: white !important;
+}
+
+.dark-mode .css-yafthl-MuiSlider-markLabel {
+  color: white !important;
+}
+
+/* scrollbar.css */
+
+/* Estilo para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 40px;
+}
+
+/* Maneja el fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: #ababab;
+  border-radius: 40px;
+}
+
+/* Maneja el mango de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: #1c1b1b;
+  border-radius: 40px;
+}
+
+/* Maneja la esquina inferior derecha */
+::-webkit-scrollbar-thumb:hover {
+  background: #1c1b1b;
+}
+
+/* DarkMode para la barra de desplazamiento */
+
+.dark-mode ::-webkit-scrollbar-track {
+  background: #1c1b1b;
+  border-radius: 40px;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+  background: #ababab;
+  border-radius: 40px;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #ababab;
+}

@@ -1,0 +1,51 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.main {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 350px));
+  gap: 10px;
+  justify-content: center;
+}
+
+.layout-card {
+  width: 100%;
+  display: grid;
+  grid:
+    "image info" 100%
+    / 40% 60%;
+  gap: 8px;
+}
+
+.image {
+  grid-area: image;
+}
+.info {
+  grid-area: info;
+}
+
+.img {
+  border-radius: 10% !important;
+  width: 8em !important;
+  height: 11em !important;
+}
+
+.double-button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

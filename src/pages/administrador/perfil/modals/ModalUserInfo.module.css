@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 20px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 20px;
+}
+
+.card-data {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-double {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.flex-title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  gap: 2.2rem;
+  margin-bottom: 0.2rem;
+}

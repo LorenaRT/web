@@ -1,0 +1,106 @@
+/* Estilos base de Movil */
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Card {
+  margin-top: 5vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.Avatar {
+  width: 12vh;
+}
+
+.Text-Title {
+  font-size: 2.5em;
+}
+
+.Input {
+  margin-top: 5%;
+}
+
+.Button {
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  font-size: 1.3em;
+}
+/* ------------------------------------------------------MD-------------------------------------------------------- */
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .Card {
+    margin-top: 5vh;
+    width: 60vw;
+  }
+  .Avatar {
+    width: 20vh;
+  }
+}
+
+/* ------------------------------------------------------LG----------------------------------------------------- */
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .Card {
+    margin-top: -10vh;
+    width: 30vw;
+  }
+  .Avatar {
+    width: 18vh;
+  }
+}
+
+/* -------------------------------------------------------XL---------------------------------------------------- */
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  .Card {
+    width: 28vw;
+  }
+  .Avatar {
+    width: 18vh;
+  }
+}
+
+/* -------------------------------------------------------XXL----------------------------------------------------- */
+/* Extra large devices (1536px and up) */
+@media only screen and (min-width: 96em) {
+  .Card {
+    width: 25vw;
+  }
+  .Avatar {
+    width: 18vh;
+  }
+}
+
+/* -------------------------------------------------------Landscape----------------------------------------------------- */
+
+/* Media query para modo horizontal (landscape) solo para dispositivos móviles */
+@media screen and (max-width: 53em) and (orientation: landscape) {
+  .Card {
+    margin-bottom: 20vh;
+  }
+  .Avatar {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Text-Title {
+    font-size: 1.5em;
+  }
+  .Input {
+    margin-top: 2%;
+  }
+  .Button {
+    height: 16vh;
+    font-size: 24px;
+  }
+}

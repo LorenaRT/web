@@ -1,0 +1,85 @@
+/* Estilos base de Movil */
+
+.card-list {
+  width: 95%;
+  margin: 0.7rem;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  font-size: 1.5rem !important;
+}
+
+.title {
+  font-size: 1.8rem !important;
+}
+
+.item1 {
+  justify-content: flex-start !important;
+  margin-left: 2rem !important;
+  margin-top: 0.18rem !important;
+}
+
+.item2 {
+  justify-content: flex-end !important;
+  margin-left: 0.5rem !important;
+}
+
+.flex-double {
+  display: flex !important;
+}
+
+.flex-double-title {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.button {
+  margin: 5px;
+  /* background-color: #FFFF00 !important;; */
+}
+
+.centerButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente fila si no caben en el ancho disponible */
+  flex-direction: row; /* Alinea los elementos en fila horizontal */
+}
+
+.body-movile {
+  display: none !important;
+}
+.body {
+  width: 97%;
+  margin: 1rem;
+}
+.table {
+  display: contents !important;
+}
+.list {
+  display: none !important;
+}

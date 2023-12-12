@@ -1,0 +1,123 @@
+/* Estilos base de Movil */
+.table {
+  display: none !important;
+}
+.list {
+  display: block !important;
+}
+
+.card-list {
+  width: 95%;
+  margin: 0.7rem;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  font-size: 1.5rem !important;
+}
+
+.title {
+  font-size: 1.8rem !important;
+}
+
+.item1 {
+  justify-content: flex-start !important;
+  margin-left: 2rem !important;
+  margin-top: 0.18rem !important;
+}
+
+.item2 {
+  justify-content: flex-end !important;
+  margin-left: 0.5rem !important;
+}
+
+.flex-double {
+  display: flex !important;
+}
+
+.flex-double-title {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.button {
+  margin: 5px;
+  /* background-color: #FFFF00 !important;; */
+}
+
+.centerButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente fila si no caben en el ancho disponible */
+  flex-direction: row; /* Alinea los elementos en fila horizontal */
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20px;
+}
+
+/* ------------------------------------------------------MD-------------------------------------------------------- */
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+}
+
+/* ------------------------------------------------------LG----------------------------------------------------- */
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .body-movile {
+    display: none !important;
+  }
+  .body {
+    width: 97%;
+    margin: 1rem;
+  }
+  .table {
+    display: contents !important;
+  }
+  .list {
+    display: none !important;
+  }
+}
+
+/* -------------------------------------------------------XL---------------------------------------------------- */
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+}
+
+/* -------------------------------------------------------XXL----------------------------------------------------- */
+/* Extra large devices (1536px and up) */
+@media only screen and (min-width: 96em) {
+}
+
+/* -------------------------------------------------------Landscape----------------------------------------------------- */
+
+/* Media query para modo horizontal (landscape) solo para dispositivos móviles */
+@media screen and (max-width: 53em) and (orientation: landscape) {
+}

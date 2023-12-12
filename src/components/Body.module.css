@@ -1,0 +1,51 @@
+/* ------------------------------------------------------Mobile-------------------------------------------------------- */
+
+.layout {
+  width: 100vw;
+  display: grid;
+  grid:
+    "navbar" auto
+    "body" 1fr
+    / 1fr;
+  gap: 8px;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+.body {
+  grid-area: body;
+  height: 85vh;
+}
+.sidebar {
+  display: none;
+}
+/*Hide Footer*/
+.footer {
+  display: none;
+}
+
+.layout {
+  width: 100vw;
+
+  display: grid;
+  grid:
+    "navbar navbar" auto
+    "sidebar body" auto
+    "footer footer" auto
+    / auto 1fr;
+  gap: 8px;
+}
+.body {
+  grid-area: body;
+  height: 85vh;
+}
+.sidebar {
+  display: block;
+  grid-area: sidebar;
+}
+
+.footer {
+  display: block;
+  grid-area: footer;
+}

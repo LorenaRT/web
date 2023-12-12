@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+.nombres {
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+.tasa-interes {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-double {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.container-money {
+  width: 100%;
+  display: flex;
+}
+
+.text-money {
+  width: 50%;
+  text-align: center;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  width: 240px !important;
+  min-width: 40% !important;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

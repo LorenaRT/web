@@ -1,0 +1,66 @@
+.layout {
+  display: grid;
+  height: 100%;
+  grid:
+    "layout" auto
+    / auto;
+}
+
+.layout {
+  grid-area: Layout;
+}
+
+.card {
+  margin-top: 5vh;
+  width: 60vw;
+  height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-double {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.img {
+  width: 20em !important;
+  height: 20em !important;
+}
+
+.title {
+  font-size: 1.8em;
+}
+
+.layoutData {
+  width: 100%;
+
+  display: grid;
+  grid:
+    "imagen data" 100%
+    / 30% 70%;
+  gap: 8px;
+}
+
+.imagen {
+  grid-area: imagen;
+}
+.data {
+  grid-area: data;
+}

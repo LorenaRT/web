@@ -1,0 +1,63 @@
+const esTranslation = {
+  signIn: {
+    login: "Iniciar sesión",
+    bienvenido: "Bienvenido",
+    password: "Contraseña",
+    email: "Correo electrónico o Usuario",
+    notAccount: "¿No tienes una cuenta?",
+    emailNotRegistered: "Usuario no encontrado",
+    incorrectPassword: "Contraseña incorrecta",
+    requiredEmail: "Correo electrónico  o Usuario requerido",
+    requiredPassword: "Contraseña requerida",
+    invalidToken: "Token inválido",
+  },
+  signUp: {
+    name: "Nombre",
+    lastName: "Apellido",
+    requiredGrado: "El grado de estudios es requerido",
+    onlyNameLetters: "El nombre solo debe contener letras",
+    nombreInvalido: "Nombre inválido",
+    onlyLastNameLetters: "El apellido solo debe contener letras",
+    password: "Contraseña",
+    signUp: "Regístrate",
+    email: "Correo electrónico",
+    correoInvalido:
+      "Formato inválido, solo se permiten cuentas de gmail, hotmail, outlook y yahoo",
+    contrasenaInvalida:
+      "Contraseña inválida, debe contener al menos 6 caracteres, una letra y un número",
+    requiredName: "Se requiere nombre",
+    requiredLastName: "Se requiere apellido",
+    requiredEmail: "Se requiere correo electrónico",
+    requiredPassword: "Se requiere contraseña",
+    alreadyAccount: "¿Ya tienes una cuenta?",
+    cancel: "Cancelar",
+    emailAlreadyExists: "El correo electrónico ya está registrado",
+    registering: "Registrando...",
+  },
+  sidebar: {
+    librosDisponibles: "Libros disponibles",
+    librosPrestamo: "Libros en préstamo",
+    agregarLibro: "Agregar libro",
+    agregarDocente: "Agregar docente",
+  },
+  otros: {
+    logout: "Cerrar sesión",
+    profile: "Perfil",
+  },
+  completeMonth: {
+    January: "Enero",
+    February: "Febrero",
+    March: "Marzo",
+    April: "Abril",
+    May: "Mayo",
+    June: "Junio",
+    July: "Julio",
+    August: "Agosto",
+    September: "Septiembre",
+    October: "Octubre",
+    November: "Noviembre",
+    December: "Diciembre",
+  },
+};
+
+export default esTranslation;

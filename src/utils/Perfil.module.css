@@ -1,0 +1,76 @@
+.card {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 80vw;
+  padding: 1rem;
+}
+
+.card-header {
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  margin: 0.3rem;
+}
+
+.img {
+  border-radius: 50%;
+  width: 10em !important;
+  height: 10em !important;
+}
+
+.card-data {
+  text-align: center;
+  margin: 0.5rem;
+}
+/* ------------------------------------------------------MD-------------------------------------------------------- */
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .card {
+    width: 60vw;
+  }
+  .card-header {
+    font-size: 2.3rem;
+  }
+  .img {
+    border-radius: 50%;
+    width: 11em !important;
+    height: 11em !important;
+  }
+}
+
+/* ------------------------------------------------------LG----------------------------------------------------- */
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .card {
+    width: 40vw;
+  }
+  .card-header {
+    font-size: 3rem;
+  }
+}
+
+/* -------------------------------------------------------XL---------------------------------------------------- */
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  .card {
+    width: 30vw;
+  }
+}
+
+/* -------------------------------------------------------XXL----------------------------------------------------- */
+/* Extra large devices (1536px and up) */
+@media only screen and (min-width: 96em) {
+  .card {
+    width: 25vw;
+  }
+}
+
+/* -------------------------------------------------------Landscape----------------------------------------------------- */
+
+/* Media query para modo horizontal (landscape) solo para dispositivos móviles */
+@media screen and (max-width: 53em) and (orientation: landscape) {
+}
